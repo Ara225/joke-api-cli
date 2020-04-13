@@ -1,0 +1,15 @@
+C:\Users\User\Documents\git\JokeAPICli\JokeAPICli\bin\Debug\netcoreapp3.1\JokeAPICli.exe
+C:\Users\User\Documents\git\JokeAPICli\JokeAPICli\obj\Debug\netcoreapp3.1\JokeAPICli.csprojAssemblyReference.cache
+C:\Users\User\Documents\git\JokeAPICli\JokeAPICli\obj\Debug\netcoreapp3.1\JokeAPICli.AssemblyInfoInputs.cache
+C:\Users\User\Documents\git\JokeAPICli\JokeAPICli\obj\Debug\netcoreapp3.1\JokeAPICli.AssemblyInfo.cs
+C:\Users\User\Documents\git\JokeAPICli\JokeAPICli\bin\Debug\netcoreapp3.1\JokeAPICli.deps.json
+C:\Users\User\Documents\git\JokeAPICli\JokeAPICli\bin\Debug\netcoreapp3.1\JokeAPICli.runtimeconfig.json
+C:\Users\User\Documents\git\JokeAPICli\JokeAPICli\bin\Debug\netcoreapp3.1\JokeAPICli.runtimeconfig.dev.json
+C:\Users\User\Documents\git\JokeAPICli\JokeAPICli\bin\Debug\netcoreapp3.1\JokeAPICli.dll
+C:\Users\User\Documents\git\JokeAPICli\JokeAPICli\bin\Debug\netcoreapp3.1\JokeAPICli.pdb
+C:\Users\User\Documents\git\JokeAPICli\JokeAPICli\obj\Debug\netcoreapp3.1\JokeAPICli.dll
+C:\Users\User\Documents\git\JokeAPICli\JokeAPICli\obj\Debug\netcoreapp3.1\JokeAPICli.pdb
+C:\Users\User\Documents\git\JokeAPICli\JokeAPICli\obj\Debug\netcoreapp3.1\JokeAPICli.genruntimeconfig.cache
+C:\Users\User\Documents\git\JokeAPICli\JokeAPICli\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\User\Documents\git\JokeAPICli\JokeAPICli\obj\Debug\netcoreapp3.1\JokeAPICli.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\git\JokeAPICli\JokeAPICli\obj\Debug\netcoreapp3.1\JokeAPICli.csproj.CopyComplete
