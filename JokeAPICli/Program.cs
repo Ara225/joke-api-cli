@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Net.Http;
 using System.Net;
 using System.Collections.Generic;
@@ -16,7 +16,7 @@ namespace JokeAPICli
         /// <summary>
         /// Main method
         /// </summary>
-        /// <param name="args">Command line argments, optional, it'll prompt otherwise. The args are: categories, flags, keywords</param>
+        /// <param name="args">Command line arguments, optional, it'll prompt otherwise. The args are: categories, flags, keywords</param>
         static void Main(string[] args)
         {
             string choice = "";
@@ -28,7 +28,7 @@ namespace JokeAPICli
             }
             else if (args.Length != 0 && args.Length != 3)
             {
-                throw new ArgumentException("Invalid amount of arguements");
+                throw new ArgumentException("Invalid amount of arguments");
             }
             else
             {
@@ -76,7 +76,7 @@ namespace JokeAPICli
             // Get categories
             HttpResponseMessage httpResponse = MakeRequest("https://sv443.net/jokeapi/v2/categories?format=json");
             // Get user's choice of categories
-            string categoryResult = Choices(httpResponse, "Choose joke category (one or a comma seprated list): ", "categories");
+            string categoryResult = Choices(httpResponse, "Choose joke category (one or a comma separated list): ", "categories");
             if (categoryResult == "")
             {
                 categoryResult = "Any";
@@ -85,9 +85,9 @@ namespace JokeAPICli
             httpResponse = MakeRequest("https://sv443.net/jokeapi/v2/flags?format=json");
             Console.WriteLine();
             // Get user's choice of flags
-            string flagsResult = Choices(httpResponse, "Choose joke flags to exclude (one or a comma seprated list, enter to exclude none): ", "flags");
+            string flagsResult = Choices(httpResponse, "Choose joke flags to exclude (one or a comma separated list, enter to exclude none): ", "flags");
             // Get keywords
-            Console.Write("Enter keywords to search: ");
+            Console.Write("Enter keywords to search (or none for a random joke): ");
             string keywordsResult = Console.ReadLine();
             return GenerateURL(categoryResult, flagsResult, keywordsResult);
         }
